@@ -7,10 +7,10 @@
     <h1>Welcome to Chourouk's excelent blog</h1>
 
     <?php
-        $dbserver = getenv('DB_HOST') ?: 'db';
-        $dbname = getenv('DB_NAME') ?: 'blog_db';
-        $dbuser = getenv('DB_USER') ?: 'blog_user';
-        $dbpassword = getenv('DB_PASSWORD') ?: 'password';
+        $dbserver = getenv('DB_HOST');
+        $dbname = getenv('DB_NAME');
+        $dbuser = getenv('DB_USER');
+        $dbpassword = getenv('DB_PASSWORD');
 
         $conn = null;
 
